@@ -1,0 +1,13 @@
+K 10
+svn:author
+V 7
+hsb2790
+K 8
+svn:date
+V 27
+2018-03-13T01:30:46.848621Z
+K 7
+svn:log
+V 104
+Began lab4.vhd added dual port ram ip. Port A connected to the  Avalon bus, PORT B takes the wave data. 
+END

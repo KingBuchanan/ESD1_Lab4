@@ -1,1 +1,3 @@
 # ESD1_Lab4
+The technical objective of this lab is to create a project which plays a waveform through the audio codec, which can then be heard on headphones.
+ Pressing Key1 on the DE1 board will incrementally increase the frequency at which the waveform is played back. Additionally, the Nios processor will be able to write any arbitrary waveform, allowing experimentation with what various wave-shapes sound like.

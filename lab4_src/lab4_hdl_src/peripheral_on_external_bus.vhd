@@ -44,12 +44,12 @@ begin
 
  wren_it<= (not i_rw_n) and i_bus_enable; 
  Dual_Port_Ram_inst : Dual_Port_Ram PORT MAP (
-		address_a	 => i_address,
+		address_a	 => '0'&i_address(10 downto 2),
 		address_b	 => i_addressWave ,
 		clock	 => clk,
 		data_a	 => o_wave_data,
 		data_b	 => o_read_data,
-		wren_a	 => wren_a_sig,
+		wren_a	 => wren_it,
 		q_a	 => q_a_sig,
 		q_b	 => q_b_sig
 	);

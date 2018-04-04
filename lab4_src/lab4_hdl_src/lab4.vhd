@@ -152,10 +152,10 @@ architecture lab4_arch of lab4 is
     );
   end component debounce;
   
-	component nios_sytem is
+	component nios_system is
 		port (
 			clk_clk                   : in  std_logic                     := 'X';             -- clk
-			reset_reset_n             : in  std_logic                     := 'X';             -- reset_n
+			reset_n_reset_n             : in  std_logic                     := 'X';             -- reset_n
 			eight_bit_input_export    : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- export
 			sixteen_bit_output_export : out std_logic_vector(15 downto 0);                    -- export
 			bus_bridge_acknowledge    : in  std_logic                     := 'X';             -- acknowledge
@@ -169,7 +169,7 @@ architecture lab4_arch of lab4 is
 			iicdatabit_export         : inout std_logic                     := 'X';             -- export
 			iicclockbit_export        : out   std_logic                                         -- export
 		);
-	end component nios_sytem;
+	end component nios_system;
 
   component hexDisplayDriver is
     port (
@@ -209,10 +209,10 @@ begin
       o_keyPulse   => key1Pulse
     );
 
-	u0 : component nios_sytem
+	u0 : component nios_system
 		port map (
 			clk_clk                   => CLOCK2_50,                   --                clk.clk
-			reset_reset_n             => reset_n,             --              reset.reset_n
+			reset_n_reset_n              => reset_n,             --              reset.reset_n
 			eight_bit_input_export    => SWsync(7 downto 0),    --    eight_bit_input.export
 			sixteen_bit_output_export => accum_sig, -- sixteen_bit_output.export
 			bus_bridge_acknowledge    => acknowledge,    --         bus_bridge.acknowledge

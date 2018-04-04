@@ -1,0 +1,78 @@
+Quartus Prime Archive log --	E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/lab4.qarlog
+
+Archive:	E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/lab4.qar
+Date:		Fri Mar 30 15:32:00 2018
+Quartus Prime		16.1.0 Build 196 10/24/2016 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/hsb2790/Downloads/lab4downloads/audio_wvfrm_init.mif
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/Dual_Port_Ram.cmp
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/Dual_Port_Ram.qip
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/Dual_Port_Ram.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/Dual_Port_Ram_inst.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/db/Lab4_auto_stripped.stp
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/lab4.qpf
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/lab4.qsf
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system.qsys
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system.sopcinfo
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/nios_system.cmp
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/nios_system.debuginfo
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/nios_system.qip
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/nios_system.regmap
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/nios_system.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_merlin_master_agent.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_merlin_master_translator.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_reset_controller.sdc
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_reset_controller.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_eight_bit_input.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_iic_clock_bit.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_iic_data_bit.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_irq_mapper.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_003.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_005.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.sdc
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_ociram_default_contents.mif
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_rf_ram_a.mif
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_rf_ram_b.mif
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.hex
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_sixteen_bit_output.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/nios_system/synthesis/submodules/nios_system_to_external_bus_bridge_0.v
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_quartus/output_files/Lab4.stp
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_src/lab4_hdl_src/codec_dac_interface.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_src/lab4_hdl_src/debounce1.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_src/lab4_hdl_src/hexDisplayDriver.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_src/lab4_hdl_src/lab4.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_src/lab4_hdl_src/peripheral_on_external_bus.vhd
+E:/cpet561/Labs_repo/Labs/lab4/ESD1_Lab4/lab4_src/lab4_hdl_src/synchronizer1.vhd
+c:/intelfpga/16.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 67 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

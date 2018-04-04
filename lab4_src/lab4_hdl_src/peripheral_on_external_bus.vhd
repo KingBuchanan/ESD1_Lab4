@@ -22,11 +22,8 @@ end entity peripheral_on_external_bus;
 
 architecture peripheral_on_external_bus_arch of peripheral_on_external_bus is
 signal  wren_it :STD_LOGIC;
-component  Dual_Port_Ram is PORT 
-(
-ENTITY Dual_Port_Ram IS
-	PORT
-	(
+component  Dual_Port_Ram is  
+port (
 		address_a		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
 		address_b		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
 		clock		    : IN STD_LOGIC  := '1';
@@ -41,17 +38,29 @@ ENTITY Dual_Port_Ram IS
 end component;
 
 begin
+process(i_bus_enable) 
+begin
+if rising_edge(clk) then 
+  if (i_bus_enable='1') then
+	o_acknowledge<='1';
+	elsif (i_bus_enable='0') then 
+	o_acknowledge<='0';
+	end if;
+	end if;
+	
+end process; 
+
 
  wren_it<= (not i_rw_n) and i_bus_enable; 
  Dual_Port_Ram_inst : Dual_Port_Ram PORT MAP (
 		address_a	 => '0'&i_address(10 downto 2),
-		address_b	 => i_addressWave ,
+		address_b	 => "00"&i_addressWave ,
 		clock	 => clk,
-		data_a	 => o_wave_data,
-		data_b	 => o_read_data,
+		data_a	 => i_write_data ,                          --write data 
+		data_b	 => i_write_data, 									--write data 
 		wren_a	 => wren_it,
-		q_a	 => q_a_sig,
-		q_b	 => q_b_sig
+		q_a	 => o_read_data,											--output what's being read
+		q_b	 => o_wave_data 												-- output what's being read
 	);
 
 
